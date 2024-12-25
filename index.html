@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <a href="#anasayfa" class="nav-logo">
+                        <div class="logo-container">
+                            <i class="fas fa-code logo-icon"></i>
+                            <span class="nav-logo-text">
+                                <span class="logo-text-primary">Yetenekler</span>
+                                <span class="logo-text-separator">&</span>
+                                <span class="logo-text-secondary">Hakkımda</span>
+                            </span>
+                        </div>
+                    </a>
+                    <ul class="nav-links">
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#hakkimda">Hakkımda</a></li>
+                        <li><a href="#portfolio">Yetenekler</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text" data-aos="fade-up">
+                        <span class="welcome-text">Merhaba, Ben</span>
+                        <h1>Çağatay Buğra Kayahan</h1>
+                        <div class="typing-text">
+                            <span class="typed-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                        <p class="hero-description">
+                            Full Stack Developer olmayı hedefleyen tutkulu bir yazılım mühendisliği öğrencisi
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="btn btn-primary">Projelerimi Gör</a>
+                            <a href="#iletisim" class="btn btn-secondary">İletişime Geç</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </section>
+
+        <section id="hakkimda" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Hakkımda</h2>
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right">
+                        <div class="image-wrapper">
+                            <img src="images/foto.jpg" alt="Çağatay Buğra Kayahan">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-text" data-aos="fade-left">
+                        <h3>Merhaba, Ben <span class="highlight">Çağatay Buğra Kayahan</span></h3>
+                        <p class="about-description">
+                            Yazılım mühendisliği öğrencisiyim ve Full Stack Developer olarak uzmanlaşmayı hedefliyorum. Şu anda front-end teknolojileri üzerine çalışıyorum ve bu alandaki bilgimi geliştirmeye devam ediyorum. İleride iOS uygulamaları ve web sitesi geliştirme alanında ustalaşmayı planlıyorum. Kendimi geliştirmeye ve yeni şeyler öğrenmeye her zaman açık biriyim.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <div class="detail-content">
+                                    <h4>Eğitim</h4>
+                                    <p>Yazılım Mühendisliği</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-code"></i>
+                                <div class="detail-content">
+                                    <h4>Uzmanlık</h4>
+                                    <p>Front-end Geliştirme</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <div class="detail-content">
+                                    <h4>İlgi Alanları</h4>
+                                    <p>Web Geliştirme, Mobil Uygulama</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Yetenekler</h2>
+                <div class="skills-grid">
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-image">
+                            </div>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%"></div>
+                            </div>
+                            <span class="skill-percentage">40%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" class="skill-image">
+                            </div>
+                            <h3>C++</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" class="skill-image">
+                            </div>
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 65%"></div>
+                            </div>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" class="skill-image">
+                            </div>
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 50%"></div>
+                            </div>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" class="skill-image">
+                            </div>
+                            <h3>C</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%"></div>
+                            </div>
+                            <span class="skill-percentage">40%</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-in">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" class="skill-image">
+                            </div>
+                            <h3>React</h3>
+                        </div>
+                        <div class="skill-info">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 20%"></div>
+                            </div>
+                            <span class="skill-percentage">20%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">İletişim</h2>
+                <div class="contact-content">
+                    <div class="contact-cards">
+                        <div class="contact-card" data-aos="fade-right">
+                            <div class="contact-icon">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">030723065@std.izu.edu.tr</a>
+                        </div>
+                        <div class="contact-card" data-aos="fade-left">
+                            <div class="contact-icon">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>Telefon</h3>
+                            <a href="tel:+905555555555">+90 555 555 55 55</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
